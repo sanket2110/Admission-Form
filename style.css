@@ -1,0 +1,33 @@
+*{
+    background: rgb(255, 243, 150);
+}
+.form-header{
+    font-size: 30px;
+    text-align: center;
+}
+.degree{
+    font-size:18px;
+}
+.thanks-text{
+    font-size: 60px;
+    text-align: center;
+}
+input[type=submit]{
+    background: green;
+    color: white;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: transparent;
+}
+input[type=submit]:hover{
+    background: transparent;
+    color: green;
+    border: 2px solid green;
+}
+input{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin-bottom: 12px;
+}

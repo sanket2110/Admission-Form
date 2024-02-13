@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>admission form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div>
+        <p class="form-header">STUDENT FORM</p>
+        <form action="/thanks.html">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name=fname><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age"><br>
+
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"><br>
+
+            <p class="degree">Select degree</p>
+            <input type="radio" id="btech" name="fav_degree" value="Btech">
+            <label for="btech">Btech</label><br>
+            <input type="radio" id="bcom" name="fav_degree" value="Bcom">
+            <label for="bcom">Bcom</label><br>
+            <input type="radio" id="bsc" name="fav_degree">
+            <label for="bsc">Bsc</label><br><br>
+
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>
